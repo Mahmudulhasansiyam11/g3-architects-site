@@ -39,6 +39,12 @@
     font-size: 1.25rem;
 }
 
+/* primary heading */
+.heading-primary{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
 /* Header Section */
 .header-container{
     background-color: rgba(255, 144, 14, 0.1);
@@ -127,6 +133,57 @@ nav ul li a{
     height: 78px;
 }
 
+/* Feature Love Section */
+.feature-love-container{
+    margin-top: 130px;
+    justify-content: space-between;
+    gap: 54px;
+}
+.feature-love-content1-heading{
+    width: 468px;
+    border-left: 10px solid #FF900E;
+    padding-left: 21px;
+}
+.feature-love-content1-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+.feature-love-content1-card1{
+    background-color: #FFFFFF;
+    width: 586px;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.feature-love-content1-card1 h3{
+    font-size: 1.25rem;
+}
+.feature-love-content2-image{
+    position: relative;
+}
+.feature-love-content2-button{
+    position: absolute;
+    text-align: center;
+    width: 380px;
+    height: 200px;
+    margin-top: -135px;
+    margin-left: -92px;
+}
+
+.feature-love-content2-button div{
+    padding: 40px;
+}
+.feature-love-span1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.feature-love-span2{
+    font-size: 1.60rem;
+    font-weight: 500px;
+}
 /* Media Query */
 /* Small Size Device */
 @media screen and (max-width: 576px) {
@@ -134,9 +191,6 @@ nav ul li a{
     nav ul,
     .feature-container
     {
-        flex-direction: column;
-    }
-    .feature-container{
         flex-direction: column;
     }
     /* Header */
@@ -150,8 +204,6 @@ nav ul li a{
         margin-top: 30px;
     }
     .banner-content-image{
-        margin: 0;
-        padding: 0;
         margin-bottom: 10px;
     }
 
@@ -161,11 +213,10 @@ nav ul li a{
     }
 
     .feature-container-text{
-        width: 450px;
-        margin-left: 120px;
+        width: auto;
     }
     .feature-container-text-paragraph{
-        width: 300px;
+        width: auto;
         margin-bottom: 20px;
     }
 }
