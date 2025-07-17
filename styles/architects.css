@@ -21,6 +21,19 @@
 .dark2-primary{
     color: rgba(66, 66, 66, 1);
 }
+.dark3-primary{
+    color: rgba(114, 114, 114, 1);
+}
+
+/* primary button */
+.button-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 22px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+}
 
 /* Header Section */
 .header-container{
@@ -36,12 +49,14 @@ nav{
 nav h3{
     font-size: 2.8rem;
     font-weight: bold;
+    margin-top: 50px;
 }
 nav ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 50px
+    gap: 50px;
+    margin-top: 63px;
 }
 
 nav ul li a{
@@ -49,3 +64,27 @@ nav ul li a{
     font-size: 1.15rem;
 }
 
+/* Banner Section */
+.banner-content-text{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 116px;
+    margin-bottom: 33px;
+}
+.banner-content-text-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.banner-content-button{
+    max-width: 180px;
+    height: 64px;
+    margin: 0 auto;
+    height: 64px;
+    margin-bottom: 50px;
+}
+.banner-content-image{
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
