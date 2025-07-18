@@ -281,6 +281,20 @@ nav ul li a{
     .feature-love-content2-button{
         margin: auto;
      }
+
+     /* Some Fact Section */
+     .some-fact-container{
+        margin-top: 300px;
+     }
+     .some-fact-content-paragraph{
+        width: auto;
+     }
+     .some-fact-content-card{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        justify-items: center;
+     }
+     
 }
 
 /* Medium Size Device */
@@ -299,9 +313,21 @@ nav ul li a{
      .feature-container-image{
         grid-template-columns: repeat(2, 1fr);
      }
-
+     
      /* Feature Love Section */
      .feature-love-content2-button{
         margin: auto;
+     }
+
+     /* Some Fact Section */
+     .some-fact-container{
+        margin-top: 300px;
+     }
+     .some-fact-content-paragraph{
+        width: auto;
+     }
+     .some-fact-content-card{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
      }
 }
