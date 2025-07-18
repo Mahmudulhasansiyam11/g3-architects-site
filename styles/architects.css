@@ -198,6 +198,8 @@ nav ul li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 125px;
+    max-width: 1370px;
+    margin: 0 auto;
 
 }
 .some-fact-content-card1{
@@ -225,6 +227,23 @@ nav ul li a{
 .some-fact-content-card1 p{
     font-size: 1.25rem;
     margin-top: -30px;
+}
+
+/* Sponsors Section */
+.sponsors-content-text{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsors-content-text p{
+    font-size: 1rem;
+    margin-top: -30px;
+}
+.sponsors-content-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 155px;
+    margin-top: 50px;
+    filter: grayscale(100%);
 }
 
 
