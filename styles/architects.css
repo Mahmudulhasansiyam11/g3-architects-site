@@ -246,6 +246,16 @@ nav ul li a{
     filter: grayscale(100%);
 }
 
+/* Footer */
+.footer-section{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 130px;
+}
+.footer-section p{
+    padding: 39px 410px;
+}
 
 /* Media Query */
 /* Small Size Device */
@@ -319,6 +329,11 @@ nav ul li a{
         justify-items: center;
         gap: 50px;
      }
+
+     /* Footer */
+     .footer-section p{
+        padding: 0px;
+     }
      
 }
 
@@ -361,5 +376,10 @@ nav ul li a{
         gap: 80px;
         margin: 10px;
         margin-top: 30px;
+     }
+
+     /* Footer */
+     .footer-section p{
+        padding: 0px;
      }
 }
