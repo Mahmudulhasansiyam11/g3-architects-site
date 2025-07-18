@@ -313,6 +313,12 @@ nav ul li a{
         gap: 0px;
         justify-items: center;
      }
+     /* Sponsors Section */
+      .sponsors-content-logo{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 50px;
+     }
      
 }
 
@@ -348,5 +354,12 @@ nav ul li a{
      .some-fact-content-card{
         grid-template-columns: repeat(2, 1fr);
         gap: 0px;
+     }
+     /* Sponsors Section */
+     .sponsors-content-logo{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px;
+        margin: 10px;
+        margin-top: 30px;
      }
 }
